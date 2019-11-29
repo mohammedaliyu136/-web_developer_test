@@ -33,7 +33,9 @@
 			<div class="col-md-4">
 				<div class="booking-cta">
 					<h1>Book your flight today</h1>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate laboriosam numquam at</p>
+					<p>Date format: dd/mm/yyyy</p>
+					<p>Dummy data: Abuja to Accra and Accra to Abuja</p>
+					<p>username: admin, password: pass1234</p>
 				</div>
 			</div>
 				<div class="col-md-7 col-md-offset-1">
@@ -191,7 +193,7 @@
 		    .find('option')
 		    .remove()
 		    .end()
-		    .append('<option value="to">To</option>');
+		    .append('<option value="label">Flyning to</option>');
 
 		data.forEach(function(e, i){
 			if(e.form == $("#id_departure").val()){
